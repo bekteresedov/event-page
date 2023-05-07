@@ -1,0 +1,92 @@
+/* header */
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(58, 52, 52);
+  padding: 16px;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-right: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.end {
+  margin-right: 100px;
+}
+/* header */
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+nav .nav-left {
+  width: 30%;
+}
+nav .nav-left img {
+  width: 20px;
+  cursor: pointer;
+}
+
+nav .nav-right ul li a {
+  text-decoration: none;
+  color: #000;
+}
+nav .nav-right ul li a:hover {
+  color: rgb(207, 25, 43);
+  transition: 0.7s ease-in;
+}
+
+nav .nav-right ul {
+  display: flex;
+}
+nav .nav-right ul li {
+  margin-left: 20px;
+}
+
+/* navbar */
+
+/* section */
+section {
+  height: 80vh;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+}
+/* section */
+/* footer */
+footer {
+  padding: 40px;
+  color: #fff;
+  background-color: #1f1919;
+}
+footer h2 {
+  font-size: 25px;
+  margin-left: 43%;
+  margin-bottom: 22px;
+}
+.footer-container {
+  width: 83%;
+  margin: 0 auto;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer ul li {
+  padding: 30px 50px;
+  background-color: #362e2e3c;
+  margin-left: 5px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+/* footer */
